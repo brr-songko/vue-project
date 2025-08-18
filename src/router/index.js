@@ -6,6 +6,7 @@ import DataBindingButton from '@/views/DataBindingButton.vue'
 import DataBindingClass from '@/views/DataBindingClass.vue'
 import EventClick from '@/views/EventClick.vue'
 import EventChange from '@/views/EventChange.vue'
+import DataBindingList2 from '@/views/DataBindingList2.vue'
 
 const routes = [
   {
@@ -24,7 +25,7 @@ const routes = [
   {
     path: '/databinding',
     name: 'DataBinding',
-    component: EventChange
+    component: DataBindingList2
   }
 ]
 
