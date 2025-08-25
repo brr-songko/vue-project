@@ -7,12 +7,13 @@ import DataBindingClass from '@/views/DataBindingClass.vue'
 import EventClick from '@/views/EventClick.vue'
 import EventChange from '@/views/EventChange.vue'
 import DataBindingList2 from '@/views/DataBindingList2.vue'
+import NestedComponent from '@/views/NestedComponent.vue'
 
 const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: NestedComponent
   },
   {
     path: '/about',

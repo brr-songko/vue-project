@@ -10,3 +10,8 @@ app.use(store);
 app.use(router);
 app.mixin(mixins); // 믹스인 전역 등록
 app.mount('#app');
+app.directive('focus', {
+    mounted(el) {
+        el.focus();
+    } 
+})
